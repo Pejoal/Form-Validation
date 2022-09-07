@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="author" content="Pejoal" />
+    <meta name="copyright" content="Pejoal" />
+  </head>
+  <body>
+    <h1>Vanilla JS Form Validation</h1>
+    <h3>Custom Form Validation before submitting the form</h3>
+    <form name="form1" id="myform" method="post" onsubmit="return validate();">
+      <section>
+        <label>username</label>
+        <input type="text" name="username" placeholder="enter ur name" />
+        <output class="error">
+          Can't be empty or less than 4 charachters | can't be only numbers
+        </output>
+      </section>
+      <section>
+        <label>Password</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="enter ur password"
+        />
+        <output class="error"> must be more than 6 characters </output>
+      </section>
+      <section>
+        <label>Confirm Password</label>
+        <input
+          type="password"
+          name="password2"
+          placeholder="reenter ur password"
+        />
+        <output class="error"> must match first password </output>
+      </section>
+      <section>
+        <input type="submit" name="submit" />
+      </section>
+    </form>
+    <h1 style="text-align: center"><a href="../index.html">Home Page</a></h1>
+    <script src="appa.js"></script>
+  </body>
+</html>
