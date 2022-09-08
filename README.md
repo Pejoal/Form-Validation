@@ -1,10 +1,8 @@
 # Pejoal
 
-This is one of my projects
+## Form Validation
 
-## Demo
-
-[Live] https://pejoal.000webhostapp.com/
+- [Live Demo](https://pejoal.000webhostapp.com/form_validation/)
 
 ## Skills
 
